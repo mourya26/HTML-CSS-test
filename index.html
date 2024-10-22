@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Quntnex - Welcome</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000222;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .logo {
+            width: 200px;
+            margin-bottom: 40px; /* Adds space between logo and container */
+            position: relative;
+            top: -50px; /* Adjust to position it outside the container */
+        }
+        .container {
+            max-width: 400px;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+        h1 {
+            color: #5cb85c;
+        }
+        p {
+            color: #555;
+        }
+        .button {
+            padding: 10px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            width: 100%;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Logo centered outside the container -->
+    <img src="quntnex-logo.png" alt="Quntnex Logo" class="logo">
+
+    <!-- Main container -->
+    <div class="container">
+        <h1>Welcome to Quntnex</h1>
+        <p>Your journey to mastering new skills begins here.</p>
+        <button class="button" onclick="location.href='login.html'">Login</button>
+        <button class="button" style="margin-top: 10px;" onclick="location.href='register.html'">Register</button>
+    </div>
+
+</body>
+</html>
